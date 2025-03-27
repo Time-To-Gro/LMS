@@ -9,7 +9,7 @@ const User = require("./models/UserModel");
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // ✅ Set your frontend URL
+    origin: "https://lms-frontend-p1rt.onrender.com/", // ✅ Set your frontend URL
     credentials: true, // ✅ Allow cookies/session
   })
 );
