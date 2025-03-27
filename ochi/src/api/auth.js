@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5555/api/users";
+const API_URL = "https://lms-fg69.onrender.com";
 
 // Axios default settings
 axios.defaults.withCredentials = true; // Ensures cookies are included
